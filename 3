@@ -1,0 +1,14 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Zeno", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("Aiming")
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewToggle("Camlock", "Locks onto players", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
