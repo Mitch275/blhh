@@ -6,5 +6,5 @@ local Main = Window:NewTab("Aiming")
 local MainSection = Main:NewSection("Main")
 
 MainSection:NewButton("Camlock Toggle", "Locks onto ppl", function()
-    loadstring(game:HttpGet('https://pastebin.com/YD47wP2g'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YD47wP2g'))()
 end)
