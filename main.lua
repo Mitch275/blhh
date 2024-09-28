@@ -8,3 +8,7 @@ local MainSection = Main:NewSection("Main")
 MainSection:NewButton("Camlock Toggle", "Locks onto ppl", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/YD47wP2g'))()
 end)
+
+MainSection:NewButton("Highlight Toggle", "esp fr", function()
+    loadstring(game:HttpGet("https://stepbrofurious.xyz/skeletonesp.lua"))()
+end)
